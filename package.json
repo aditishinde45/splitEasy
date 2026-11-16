@@ -1,0 +1,22 @@
+{
+  "name": "spliteasy-root",
+  "version": "1.0.0",
+  "description": "SplitEasy – Full-Stack Shared Expense Sharing Platform",
+  "private": true,
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "server:start": "npm --prefix server start",
+    "client": "npm --prefix client run dev",
+    "client:build": "npm --prefix client run build",
+    "test:server": "npm --prefix server test",
+    "dev": "npm run server & npm run client"
+  },
+  "keywords": [
+    "expense-sharing",
+    "splitwise-alternative",
+    "mern",
+    "spliteasy"
+  ],
+  "author": "",
+  "license": "ISC"
+}
