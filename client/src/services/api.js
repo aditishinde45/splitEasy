@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create configured Axios instance
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://spliteasy-0l64.onrender.com/api',
   withCredentials: true, // Send HTTP-only cookies
   headers: {
     'Content-Type': 'application/json',
